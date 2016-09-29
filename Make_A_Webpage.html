@@ -7,12 +7,171 @@
 </head>
 <body>
 	<div class="TOC">
-	<h1>Table of Content</h1>
-	<ol>
-		<li class="menu"><div class="dropdown">Lesson1<button onclick="dropdownFunction()" class="dropbtn">Dropdown</li>
-		<li class="menu"><div class="dropdown">Lesson2<button onclick="dropdownFunction()" class="dropbtn">Dropdown</li>
-		<li class="menu"><div class="dropdown">Lesson3<button onclick="dropdownFunction()" class="dropbtn">Dropdown</li>
-	</ol>
+		<h1>Table of Content</h1>
+		<ol>
+			<li class="lessonmenu">
+				<div class="dropdown">
+					<button onclick="DropDownFunction()" class="dropbtn">Lesson 1: Basic Aspects of HTML and Applications To The Webs
+					</button>
+					<div id="myDropdown" class="dropdown-content:">
+						<a href="#Lesson_1_1">What is the web and how it works
+						</a>
+						<a href="#Lesson_1_2">What is HTML?
+						</a>
+						<a href="#Lesson_1_3">Tags and Elements used in HTML
+						</a>
+						<a href="#Lesson_1_4">Why computers are stupid
+						</a>
+						<a href="#Lesson_1_5">Inline vs block elements
+						</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button onclick="DropDownFunction()" class="dropbtn">Lesson 2: Creating Structured HTML Documents
+					</button>
+					<div id="myDropdown" class="dropdown-content:">
+						<a href="#Lesson_2_1">Developer tools
+						</a>
+						<a href="#Lesson_2_2">Tree structure
+						</a>
+						<a href="#Lesson_2_3">Identions and boxes
+						</a>
+						<a href="#Lesson_2_4">Text editors
+						</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button onclick="DropDownFunction()" class="dropbtn">Lesson 3: CSS Style to HTML Structure
+					</button>
+					<div id="myDropdown" class="dropdown-content:">
+						<a href="#Lesson_3_1">Avoiding repetitions
+						</a>
+						<a href="#Lesson_3_2">CSS
+						</a>
+						<a href="#Lesson_3_3">Coding resources
+						</a>
+					</div>
+				</div>
+			</li>
+		</ol>
+	</div>
+	<h1>HTML and CSS Concepts</h1>
+	<div class="lessons">
+		<h2 class="lesson_1">Lesson 1: Basic Aspects of HTML and applications to the web
+		</h2>
+		<div class="concept" id="Lesson_1_1">
+			<div class ="concept_title">What is the web and how it works
+			</div>
+			<div class="concept_description">
+				<p>The web is where computers establish connections and share informations. Websites can be accessed through browswers using <em>HTTP Request</em> to connect to servers online. 
+				</p>
+				<p>This video has some simplified explanations:<a href="https://www.youtube.com/watch?v=J8hzJxb0rpc">What is the world wide web?</a>
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="Lesson_1_2">
+			<div class ="concept_title">What is HTML?
+			</div>
+			<div class="concept_description">
+				<p>The web is where computers establish connections and share informations. Websites can be accessed through browswers using <em>HTTP Request</em> to connect to servers online. 
+				</p>
+				<p>This video has some simplified explanations:<a href="https://www.youtube.com/watch?v=J8hzJxb0rpc">What is the world wide web?</a>
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="Lesson_1_3">
+			<div class ="concept_title">Tags and elements used in HTML
+			</div>
+			<div class="concept_description">
+				<p>HTML documents are writtten with HTML tags. A glossary of tags can be found on <a href="http://www.w3schools.com/">this website</a>
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="Lesson_1_4">
+			<div class ="concept_title">Why computers are stupid
+			</div>
+			<div class="concept_description">
+				<p>Computers follow instructions literally. Any ambuguities will throw off the results.
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="Lesson_1_5">
+			<div class ="concept_title">Inline vs block elements
+			</div>
+			<div class="concept_description">
+				<p>HTML elements are either inline or block. Block elements form an "invisible box" around the content
+				</p>
+			</div>
+		</div>
+			
+		<h2 class="lesson_2">Lesson 2: Creating Structured HTML Documents
+		</h2>
+		<div class="concept" id="Lesson_2_1">
+			<div class ="concept_title">Developer tools
+			</div>
+			<div class="concept_description">
+				<p>HTML elements are either <em>inline or block</em>. Block elements form an "invisible box" around the content inside of them.
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="Lesson_2_2">
+			<div class ="concept_title">Inline vs block elements
+			</div>
+			<div class="concept_description">
+				<p>HTML elements are either inline or block. Block elements form an "invisible box" around the content
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="Lesson_2_3">
+			<div class ="concept_title">Tree Structure
+			</div>
+			<div class="concept_description">
+				<p>The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. You can draw this relationship like a family tree. My mother had multiple children. So did her mother, and so on...
+				</p>
+				<p>In a browser, this structure shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on...
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="Lesson_2_4">
+			<div class ="concept_title">Tex Editors
+			</div>
+			<div class="concept_description">
+				<p>When you read an HTML document as text, you see a wave of changing indentations going up and down the left side of the document. The more indented an element is, the more deeply nested its corresponding "box" is.
+				</p>
+			</div>
+		</div>
 
+
+		<h2 class="lesson_3">Lesson 3: CSS Style to HTML Structure
+		</h2>
+		<div class="concept" id="Lesson_3_1">
+			<div class ="concept_title">Avoiding repetitions
+			</div>
+			<div class="concept_description">
+				<p>HTML elements are either inline or block. Block elements form an "invisible box" around the content
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="Lesson_3_2">
+			<div class ="concept_title">CSS
+			</div>
+			<div class="concept_description">
+				<p>Avoiding repetition is important for a variety of reasons
+				</p>
+				<p><em>Avoiding Errors:</em> When programmers don't avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.
+				</p>
+				<p><em>Consistency:</em> In this web page, I wanted every lesson to look the same. Instead of manually giving each one the same style, I was able to assign each lesson div the same class and then specify the style for that class in only one place! By avoiding repetion, it's now very easy for me to make changes to this style.
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="Lesson_3_3">
+			<div class ="concept_title">Coding resources
+			</div>
+			<div class="concept_description">
+				<p><a href="http://www.w3schools.com/">W3Schools</a> is perhaps the best place to find resources regarding all aspects of HTML CSS and much more.
+				</p>
+			</div>
+		</div>
+	</div>
 </body>
-</html
+</html>
