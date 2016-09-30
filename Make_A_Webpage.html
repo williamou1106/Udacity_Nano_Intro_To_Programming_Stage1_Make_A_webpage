@@ -6,59 +6,50 @@
 
 </head>
 <body>
-	<div class="TOC">
-		<h1>Table of Content</h1>
-		<ol>
-			<li class="lessonmenu">
-				<div class="dropdown">
-					<button onclick="DropDownFunction()" class="dropbtn">Lesson 1: Basic Aspects of HTML and Applications To The Webs
-					</button>
-					<div id="myDropdown" class="dropdown-content:">
-						<a href="#Lesson_1_1">What is the web and how it works
-						</a>
-						<a href="#Lesson_1_2">What is HTML?
-						</a>
-						<a href="#Lesson_1_3">Tags and Elements used in HTML
-						</a>
-						<a href="#Lesson_1_4">Why computers are stupid
-						</a>
-						<a href="#Lesson_1_5">Inline vs block elements
-						</a>
-					</div>
-				</div>
-				<div class="dropdown">
-					<button onclick="DropDownFunction()" class="dropbtn">Lesson 2: Creating Structured HTML Documents
-					</button>
-					<div id="myDropdown" class="dropdown-content:">
-						<a href="#Lesson_2_1">Developer tools
-						</a>
-						<a href="#Lesson_2_2">Tree structure
-						</a>
-						<a href="#Lesson_2_3">Identions and boxes
-						</a>
-						<a href="#Lesson_2_4">Text editors
-						</a>
-					</div>
-				</div>
-				<div class="dropdown">
-					<button onclick="DropDownFunction()" class="dropbtn">Lesson 3: CSS Style to HTML Structure
-					</button>
-					<div id="myDropdown" class="dropdown-content:">
-						<a href="#Lesson_3_1">Avoiding repetitions
-						</a>
-						<a href="#Lesson_3_2">CSS
-						</a>
-						<a href="#Lesson_3_3">Coding resources
-						</a>
-					</div>
-				</div>
-			</li>
-		</ol>
+	<h1 class="title">Stage 1 NOTES: Table Of Contents</h1>
+	<div class="dropdown">
+		<button class ="dropbtn">Lesson 1</button>
+		<div class = "dropdown-content">
+			<a href="#Lesson_1_1">What is the web and how it works
+			</a>
+			<a href="#Lesson_1_2">What is HTML?
+			</a>
+			<a href="#Lesson_1_3">Tags and Elements used in HTML
+			</a>
+			<a href="#Lesson_1_4">Why computers are stupid
+			</a>
+			<a href="#Lesson_1_5">Inline vs block elements
+			</a>
+		</div>
 	</div>
-	<h1>HTML and CSS Concepts</h1>
+	<div class="dropdown">
+		<button class ="dropbtn">Lesson 2</button>
+		<div class = "dropdown-content">
+			<a href="#Lesson_2_1">Developer tools
+			</a>
+			<a href="#Lesson_2_2">Tree structure
+			</a>
+			<a href="#Lesson_2_3">Identions and boxes
+			</a>
+			<a href="#Lesson_2_4">Text editors
+			</a>
+		</div>
+	</div>
+	<div class="dropdown">
+		<button class ="dropbtn">Lesson 3</button>
+		<div class = "dropdown-content">
+			<a href="#Lesson_3_1">Avoiding repetitions
+			</a>
+			<a href="#Lesson_3_2">CSS
+			</a>
+			<a href="#Lesson_3_3">Coding resources
+			</a>
+		</div>
+	</div>
+	<h2>HTML and CSS Concepts</h2>
 	<div class="lessons">
-		<h2 class="lesson_1">Lesson 1: Basic Aspects of HTML and applications to the web
-		</h2>
+		<h3 class="lesson_1">Lesson 1: Basic Aspects of HTML and applications to the web
+		</h3>
 		<div class="concept" id="Lesson_1_1">
 			<div class ="concept_title">What is the web and how it works
 			</div>
@@ -104,8 +95,8 @@
 			</div>
 		</div>
 			
-		<h2 class="lesson_2">Lesson 2: Creating Structured HTML Documents
-		</h2>
+		<h3 class="lesson_2">Lesson 2: Creating Structured HTML Documents
+		</h3>
 		<div class="concept" id="Lesson_2_1">
 			<div class ="concept_title">Developer tools
 			</div>
@@ -115,14 +106,6 @@
 			</div>
 		</div>
 		<div class="concept" id="Lesson_2_2">
-			<div class ="concept_title">Inline vs block elements
-			</div>
-			<div class="concept_description">
-				<p>HTML elements are either inline or block. Block elements form an "invisible box" around the content
-				</p>
-			</div>
-		</div>
-		<div class="concept" id="Lesson_2_3">
 			<div class ="concept_title">Tree Structure
 			</div>
 			<div class="concept_description">
@@ -132,28 +115,27 @@
 				</p>
 			</div>
 		</div>
-		<div class="concept" id="Lesson_2_4">
-			<div class ="concept_title">Tex Editors
+		<div class="concept" id="Lesson_2_3">
+			<div class ="concept_title">The relationship between indented HTML and boxes
 			</div>
 			<div class="concept_description">
 				<p>When you read an HTML document as text, you see a wave of changing indentations going up and down the left side of the document. The more indented an element is, the more deeply nested its corresponding "box" is.
 				</p>
-			</div>
 		</div>
-
-
-		<h2 class="lesson_3">Lesson 3: CSS Style to HTML Structure
-		</h2>
-		<div class="concept" id="Lesson_3_1">
-			<div class ="concept_title">Avoiding repetitions
+		<div class="concept" id="Lesson_2_4">
+			<div class ="concept_title">Text Editors
 			</div>
 			<div class="concept_description">
-				<p>HTML elements are either inline or block. Block elements form an "invisible box" around the content
+				<p>When writing code, programmers use special text editors (like Sublime Text for example). These editors make the programmer's life easier. For example, some text editors will automatically generate a closing HTML tag when you write an opening tag.
 				</p>
 			</div>
 		</div>
-		<div class="concept" id="Lesson_3_2">
-			<div class ="concept_title">CSS
+
+
+		<h3 class="lesson_3">Lesson 3: CSS Style to HTML Structure
+		</h3>
+		<div class="concept" id="Lesson_3_1">
+			<div class ="concept_title">Avoiding repetitions
 			</div>
 			<div class="concept_description">
 				<p>Avoiding repetition is important for a variety of reasons
@@ -161,6 +143,14 @@
 				<p><em>Avoiding Errors:</em> When programmers don't avoid repetition, they will often have to do the same thing over and over. This may mean copy and pasting certain style attributes into many HTML elements or rewriting the same code (sometimes with minor differences) many times. This can lead to errors when the programmer decides to make a change to something. If they don't dilligently make that same change everywhere the repeated code appears, problems will arise.
 				</p>
 				<p><em>Consistency:</em> In this web page, I wanted every lesson to look the same. Instead of manually giving each one the same style, I was able to assign each lesson div the same class and then specify the style for that class in only one place! By avoiding repetion, it's now very easy for me to make changes to this style.
+				</p>
+			</div>
+		</div>
+		<div class="concept" id="Lesson_3_2">
+			<div class ="concept_title">CSS
+			</div>
+			<div class="concept_description">
+				<p>CSS stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.
 				</p>
 			</div>
 		</div>
