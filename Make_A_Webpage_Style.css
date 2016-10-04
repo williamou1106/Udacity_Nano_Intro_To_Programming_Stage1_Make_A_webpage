@@ -1,11 +1,15 @@
+.layout{
+  background-image: url(http://www.indiewire.com/wp-content/uploads/2013/10/adventure-time.png);
+  margin-bottom: 300px;
+}
 
 .title{
     background-color: #DEB887;
-    text-size: 80px;
     text-align: center;
 }
+
 .dropbtn {
-    background-color: #DEB887;
+    background: rgba(38, 202, 198,0.3);
     color: black;
     padding: 32px;
     font-size:  22px;
@@ -13,8 +17,9 @@
     border-width: 5px;
     cursor: pointer;
     margin-top: 20px;
-    margin-bottom: px;
+    margin-bottom: 20px;
     margin-left: 260px; 
+    filter: alpha(opacity=20);
 }
 
 .dropdown {
@@ -59,14 +64,17 @@
   border-style: solid;
   border-width: 2px;
   border-color: grey;
-  background-color: #DEB887;
+  background-color: rgba(255,255,0,0.8);
 }
 
 .concept_title{
   font-style: italic;
+  font-weight: bold;
 }
+
 .concept_description{
-  background-color: blanchedalmond;
+  background: rgba(38, 202, 198,0.3);
+  font-weight: bold;
 }
 
 .lessons{
